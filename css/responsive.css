@@ -1,0 +1,392 @@
+@charset "UTF-8";
+@media screen and (max-width: 1180px) {
+  /* header */
+  .header-left {
+    margin-left: 30px;
+  }
+  .phone-info#header-info {
+    text-align: center;
+  }
+  /* about */
+  .about-img {
+    padding-left: 20px;
+  }
+  /* service */
+  .service-intro {
+    margin-top: 35px;
+  }
+  .service-inner {
+    margin: 0 15px;
+  }
+  .service-list {
+    -ms-grid-columns: 80%;
+        grid-template-columns: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2rem 0;
+  }
+  .service-item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 2px;
+  }
+  .service-item:last-of-type {
+    margin-right: auto;
+  }
+  .service-content-title {
+    margin-bottom: 30px;
+  }
+  .service-content-text {
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+  /* news */
+  .news-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .news-list {
+    margin: 35px 15px 0 15px;
+  }
+  .news-text {
+    display: block;
+  }
+  .more-view {
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  /* footer */
+  .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 100px;
+  }
+  .ggmap {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer-address-wrapper {
+    text-align: center;
+    padding: 10px;
+  }
+  .footer-contact-inner {
+    width: 60vw;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  .main-logo {
+    margin: 0 auto;
+  }
+  .phone-info#footer-info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 28px;
+  }
+  .footer-contact-top,
+  .footer-contact-under {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+    width: 60vw;
+    margin: 0 auto;
+  }
+  .recp-time-content {
+    padding: 0;
+  }
+  .recp-time-heading {
+    height: 0;
+    margin: 0 auto 40px;
+  }
+  .recp-time-item #week {
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+  }
+  .footer-contact-under {
+    border-top: 2px solid #e7e7e7;
+  }
+  .closed-days-heading {
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .closed-days-content {
+    padding: 0;
+  }
+  .closed-days-content p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .copy-right {
+    text-align: center;
+  }
+}
+
+/* 768以下のメディアクエリ */
+@media screen and (max-width: 768px) {
+  /* header */
+  .header-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header-left {
+    margin: 10px auto;
+    margin-bottom: 15px;
+  }
+  .header-right {
+    margin: 0 auto;
+    height: 100vh;
+  }
+  .main-logo {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .phone-info#header-info {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .phone-number-text {
+    font-size: 1.8rem;
+    margin-top: 0px;
+    padding-left: 25px;
+    text-align: center;
+  }
+  .phone-number-text::before {
+    width: 17px;
+    height: 17px;
+  }
+  /* fv */
+  .fv {
+    width: 100%;
+  }
+  .fv-img {
+    height: 562px;
+    width: 100vw;
+  }
+  .fv-text-inner {
+    height: 375px;
+    width: auto;
+    top: 150px;
+    margin-left: 5%;
+  }
+  .fv-text-area {
+    height: 365px;
+    width: 70px;
+  }
+  .fv-text-area h1 {
+    font-size: 2rem;
+    line-height: 70px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+  }
+  .fv-text-area h1 span {
+    letter-spacing: 3px;
+    margin: -8px;
+  }
+  #area-02 {
+    margin-right: 20px;
+  }
+  /* section about */
+  .about-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 80px;
+  }
+  .about-content {
+    margin: 0 auto;
+  }
+  .about-copy {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about-copy span {
+    margin-top: 20px;
+  }
+  .about-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .about-img {
+    padding-left: 0;
+  }
+  /* section service */
+  .service-title {
+    font-size: 2rem;
+  }
+  .service-intro {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .service-inner {
+    margin: 0 15px;
+  }
+  .service-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .service-item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+  }
+  .service-content-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .service-content-text {
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+  }
+  .service-content-img {
+    width: 155px;
+  }
+  /* news */
+  #news {
+    padding-bottom: 50px;
+  }
+  .news-wrapper {
+    margin: 10px;
+  }
+  .news-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .news-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+  .news-box {
+    padding: 0px 25px 36px 25px;
+  }
+  .news-item {
+    padding: 14px 0 14px 0;
+  }
+  .news-date {
+    margin-right: 20px;
+    font-size: 1.4rem;
+  }
+  .news-text {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 3;
+  }
+  .news-category {
+    height: 20px;
+    width: 60px;
+  }
+  .more-view {
+    font-size: 1.4rem;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+  /* footer */
+  .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  .ggmap {
+    width: 95%;
+  }
+  .footer-address-wrapper {
+    text-align: center;
+    padding: 10px;
+  }
+  .footer-address {
+    font-size: 1.4rem;
+  }
+  .footer-contact-inner {
+    width: 95%;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  .main-logo {
+    margin: 0 auto;
+  }
+  .footer-contact-top,
+  .footer-contact-under {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .recp-time-content {
+    padding: 0;
+  }
+  .recp-time-heading {
+    height: 0;
+    margin: 0 auto 40px;
+  }
+  .recp-time-item #week {
+    display: block;
+    width: 45px;
+    margin: 0 auto;
+  }
+  .footer-contact-under {
+    border-top: 2px solid #e7e7e7;
+  }
+  .closed-days-heading {
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .closed-days-content {
+    padding: 0;
+  }
+  .closed-days-content p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .copy-right {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .intro-br {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
